@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Pacifico&family=Playfair+Display&family=Raleway&family=Staatliches&display=swap');
+
+:root {
+    --corDeFundo: #232323;
+    --corDeTitulos: #ffffff;
+    --corDeTextoNormal: #c9c9c9;
+}
+
+body {
+    background-color: var(--corDeFundo);
+    color: var(--corDeTextoNormal);
+}
+
+h1 {
+    color: var(--corDeTitulos);
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: var(--corDeTitulos);
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+h4, h5, h6 {
+    color: var(--corDeTitulos);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Serifa {
+    font-family: 'Playfair Display', serif;
+}
+
+.SemSerifa {
+    font-family: 'Raleway', sans-serif;
+}
+
+.Artistica {
+    font-family: 'Staatliches', display, sans-serif;
+}
+
+.Cursiva {   
+    font-family: 'Pacifico', cursive, sans-serif;
+}
+
+.Monoespacada {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
